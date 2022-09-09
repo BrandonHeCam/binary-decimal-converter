@@ -2,6 +2,7 @@
 const numBinary = document.getElementById("inputNumberBinary");
 const btnDecimal = document.getElementById("btnConvertDecimal");
 const btnReset = document.getElementById("btnResetResult");
+const results = document.getElementById("sectionResult");
 
 //Constants
 const base = 2;
@@ -15,6 +16,7 @@ let arrFinalBinary = [];
 
 /* Functions */
 function convertNumberDecimal() {
+  // Process
   binary = Array.from(numBinary.value);
   arrNumberBinary = binary.map((str) => Number.parseInt(str));
   arrNumberBinary.reverse();
@@ -25,6 +27,11 @@ function convertNumberDecimal() {
   }
   total = arrFinalBinary.reduce((previus, current) => previus + current, 0);
   console.log(total);
+
+  // Results
+  const lineResult = document.createElement("p");
+  lineResult.innerHTML = `<b>Número decimal: ${total}</b>`;
+  results.appendChild(lineResult);
 }
 
 function emptyArray(arrayOne, arrayTwo) {
