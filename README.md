@@ -1,18 +1,18 @@
-# Conversor de números binarios a decimal
+# Binary to Decimal Converter
 
-Este proyecto es un simple conversor de números binarios a números decimales desarrollado con JavaScript y HTML. Permite a los usuarios ingresar un número binario y luego muestra su equivalente en el sistema decimal.
+This project is a simple binary to decimal number converter developed using JavaScript and HTML. It allows users to input a binary number and then displays its equivalent in the decimal system.
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - HTML5
 - JavaScript
 
-## Uso
+## Usage
 
-1. Abra el archivo `index.html` en su navegador web preferido.
-2. Ingrese un número binario en el campo de entrada.
-3. Presione el botón "Convertir" para ver el resultado en la pantalla.
+1. Open the `index.html` file in your preferred web browser.
+2. Enter a binary number into the input field.
+3. Press the "Convert" button to view the result on the screen.
 
-## Contribuciones
+## Contributions
 
-¡Las contribuciones son bienvenidas! Si desea mejorar este proyecto, puede crear un fork del repositorio, realizar sus cambios y enviar un pull request.
+Contributions are welcome! If you wish to enhance this project, you can fork the repository, make your changes, and submit a pull request.
